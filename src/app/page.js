@@ -231,6 +231,58 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Project 3: WA Drone Tracker */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+              {/* Project Image Placeholder */}
+              <div className="h-48 bg-gradient-to-br from-slate-700 to-rose-500 flex items-center justify-center">
+                <p className="text-white text-2xl font-bold">🛸 WA Drone Tracker</p>
+              </div>
+              
+              {/* Project Content */}
+              <div className="p-6 space-y-4">
+                <h3 className="text-2xl font-bold text-slate-800">
+                  WA Drone Tracker
+                </h3>
+                <p className="text-slate-600">
+                  A locally-hosted desktop application that aggregates live drone flight telemetry from the OpenSky Network and FAA registration data into an interactive browser-based dashboard with real-time maps, charts, and incident reports. Features a full pytest test suite with unit, integration, and end-to-end tests, plus GitHub Actions CI/CD pipelines for automated linting, multi-version testing, Docker builds, and continuous deployment.                
+                </p>
+                
+                {/* Tech Stack */}
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">
+                    Python
+                  </span>
+                  <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-semibold">
+                    Flask
+                  </span>
+                  <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">
+                    SQLAlchemy
+                  </span>
+                  <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">
+                    Leaflet.js
+                  </span>
+                  <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-semibold">
+                    Docker
+                  </span>
+                  <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">
+                    pytest
+                  </span>
+                </div>
+                
+                {/* Links */}
+                <div className="flex gap-4 pt-4">
+                  <a 
+                    href="https://github.com/AshlynnFaithMoore/wa-drone-tracker"
+                    target="_blank"
+                    className="bg-slate-800 text-white px-6 py-2 rounded-lg hover:bg-slate-700 transition"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </section>
@@ -313,6 +365,7 @@ export default function Home() {
                     <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">React</span>
                     <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-semibold">Next.js</span>
                     <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">SwiftUI</span>
+                    <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">Flask</span>
                   </div>
                 </div>
 
@@ -322,6 +375,7 @@ export default function Home() {
                     <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">Git</span>
                     <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-semibold">Linux</span>
                     <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">SQL</span>
+                    <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">Docker</span>
                   </div>
                 </div>
               </div>
