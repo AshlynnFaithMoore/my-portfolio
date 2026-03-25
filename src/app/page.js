@@ -102,7 +102,7 @@ export default function Home() {
               Ashlynn Moore
             </h1>
             <p className="text-2xl text-orange-600 font-semibold">
-              Aspiring Software Engineer
+              Software Engineer
             </p>
             <p className="text-lg text-slate-700 leading-relaxed">
               I'm a proactive computer science graduate with strong programming skills, excited about web development and software engineering. I aim to utilize my coding expertise to create innovative applications that elevate user experiences and drive technological progress.
