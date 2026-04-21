@@ -282,6 +282,36 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Project 3: Silent Churn Predictor */}
+            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+              <div className="h-48 bg-gradient-to-br from-violet-500 to-indigo-500 flex items-center justify-center">
+                <p className="text-white text-2xl font-bold">Silent Churn</p>
+              </div>
+              <div className="p-6 space-y-4">
+                <h3 className="text-2xl font-bold text-slate-800">
+                  Silent Churn Predictor
+                </h3>
+                <p className="text-slate-600">
+                  A machine learning system that predicts silent churn in wearable fitness apps using behavioral signals from 100K+ WHOOP records. Achieved 94.98% accuracy with a tuned LightGBM model and a SHAP-powered intervention engine that generates personalized retention recommendations per user.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-violet-100 text-violet-700 px-3 py-1 rounded-full text-sm font-semibold">Python</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-semibold">LightGBM</span>
+                  <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-semibold">SHAP</span>
+                  <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold">Streamlit</span>
+                  <span className="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-sm font-semibold">scikit-learn</span>
+                </div>
+                <div className="flex gap-4 pt-4">
+                  <a 
+                    href="https://gitlab.com/wgu-gitlab-environment/student-repos/AshlynnFaith22/d683-advanced-ai-and-ml"
+                    target="_blank"
+                    className="bg-slate-800 text-white px-6 py-2 rounded-lg hover:bg-slate-700 transition"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -347,35 +377,52 @@ export default function Home() {
                 </svg>
                 <h3 className="text-2xl font-bold text-slate-800">Technical Skills</h3>
               </div>
-
+ 
               <div className="space-y-4">
+                {/* Languages */}
                 <div>
                   <h4 className="font-semibold text-slate-700 mb-2">Languages</h4>
                   <div className="flex flex-wrap gap-2">
-                    <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">JavaScript</span>
-                    <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-semibold">Python</span>
-                    <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">Swift</span>
-                    <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">Java</span>
+                    <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">Python</span>
+                    <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-semibold">Swift</span>
+                    <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">JavaScript</span>
+                    <span className="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-semibold">SQL</span>
                   </div>
                 </div>
-
+ 
+                {/* Web & Mobile */}
                 <div>
-                  <h4 className="font-semibold text-slate-700 mb-2">Frameworks & Libraries</h4>
+                  <h4 className="font-semibold text-slate-700 mb-2">Web & Mobile</h4>
                   <div className="flex flex-wrap gap-2">
                     <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">React</span>
                     <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-semibold">Next.js</span>
-                    <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">SwiftUI</span>
-                    <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">Flask</span>
+                    <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">Tailwind CSS</span>
+                    <span className="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-semibold">SwiftUI</span>
                   </div>
                 </div>
-
+ 
+                {/* Machine Learning & AI */}
                 <div>
-                  <h4 className="font-semibold text-slate-700 mb-2">Tools & Technologies</h4>
+                  <h4 className="font-semibold text-slate-700 mb-2">Machine Learning & AI</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="bg-violet-100 text-violet-700 px-3 py-1 rounded-full text-sm font-semibold">scikit-learn</span>
+                    <span className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-semibold">LightGBM</span>
+                    <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-semibold">XGBoost</span>
+                    <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold">SHAP</span>
+                    <span className="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-sm font-semibold">pandas</span>
+                    <span className="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full text-sm font-semibold">NumPy</span>
+                    <span className="bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-sm font-semibold">Streamlit</span>
+                  </div>
+                </div>
+ 
+                {/* Tools */}
+                <div>
+                  <h4 className="font-semibold text-slate-700 mb-2">Tools & Platforms</h4>
                   <div className="flex flex-wrap gap-2">
                     <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">Git</span>
                     <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-semibold">Linux</span>
-                    <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">SQL</span>
-                    <span className="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold">Docker</span>
+                    <span className="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">VS Code</span>
+                    <span className="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-semibold">Jupyter</span>
                   </div>
                 </div>
               </div>
